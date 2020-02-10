@@ -12,12 +12,20 @@ public class calculator {
 		return c;		
 	}
 	
+	int sub() {
+		a=50;
+		b=10;
+		c=a-b;
+		return c;
+	}
+	
 		public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			
 			calculator calc = new calculator();
 			calc.add();
 			System.out.println(calc.add());
+			System.out.println(calc.sub());
 			
 	}
 
