@@ -17,6 +17,7 @@ public class calculator {
 		b=10;
 		c=a-b;
 		return c;
+		//added a comment
 	}
 	
 		public static void main(String[] args) {
